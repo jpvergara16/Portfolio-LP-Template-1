@@ -162,10 +162,12 @@ hr.small {
     -o-background-size: cover;
 }
 
-/* About */
+ /*About, Call To Action  */
 
-.about {
+.about, .call-to-action {
     padding: 50px 0;
+    background-color: #3F93E8;
+    color: white
 }
 
 .sec-header {
@@ -173,13 +175,19 @@ hr.small {
   text-transform:uppercase;
 }
 
-/* Services */
-
-.services {
-    padding: 50px 0;
+.call-to-action .btn {
+    margin: 10px;
 }
 
-.service-item {
+/* Services */
+
+.process {
+    padding: 50px 0;
+    background-color: white;
+    color: #3F93E8;
+}
+
+.process-item {
     margin-bottom: 30px;
 }
 
@@ -201,6 +209,8 @@ hr.small {
 
 .portfolio {
     padding: 50px 0;
+    background-color: black;
+    color: white;
 }
 
 .portfolio-item {
@@ -213,16 +223,6 @@ hr.small {
 
 .img-portfolio:hover {
     opacity: 0.8;
-}
-
-/* Call to Action */
-
-.call-to-action {
-    padding: 50px 0;
-}
-
-.call-to-action .btn {
-    margin: 10px;
 }
 
 /* Footer */
